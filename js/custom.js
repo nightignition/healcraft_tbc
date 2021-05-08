@@ -34,119 +34,119 @@ $(document).ready(function()
 			{class: 'Paladin', name: 'Flash of Light', id:'fol', coef:'0.3739', rank: '5', min: 278, max: 310, mana: 115, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 50, link: "https://tbc.wowhead.com/spell=27137/flash-of-light"},
 			{class: 'Paladin', name: 'Flash of Light', id:'fol', coef:'0.4285', rank: '6', min: 356, max: 396, mana: 140, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 58, link: "https://tbc.wowhead.com/spell=27137/flash-of-light"},
 			{class: 'Paladin', name: 'Flash of Light', id:'fol', coef:'0.4285', rank: '7', min: 458, max: 513, mana: 180, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 66, link: "https://tbc.wowhead.com/spell=27137/flash-of-light"}
-		],
-		"Holy Light":[
-			{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '1', min: 42, max: 51, mana: 35, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 1, link: "https://classic.wowhead.com/spell=635/holy-light"},
-			{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '2', min: 81, max: 96, mana: 60, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 6, link: "https://classic.wowhead.com/spell=635/holy-light"},
-			{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '3', min: 167, max: 196, mana: 110, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 14, link: "https://classic.wowhead.com/spell=635/holy-light"},
-			{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '4', min: 322, max: 368, mana: 190, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 22, link: "https://classic.wowhead.com/spell=635/holy-light"},
-			{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '5', min: 506, max: 569, mana: 275, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 30, link: "https://classic.wowhead.com/spell=635/holy-light"},
-			{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '6', min: 717, max: 799, mana: 365, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 38, link: "https://classic.wowhead.com/spell=635/holy-light"},
-			{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '7', min: 968, max: 1076, mana: 465, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 46, link: "https://classic.wowhead.com/spell=635/holy-light"},
-			{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '8', min: 1272, max: 1414, mana: 580, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 54, link: "https://classic.wowhead.com/spell=635/holy-light"},
-			{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '9', min: 1590, max: 1770, mana: 660, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 54, link: "https://classic.wowhead.com/spell=635/holy-light"}
-		],
-		"Lesser Heal":[
-			{class: 'Priest', name: 'Lesser Heal', id: 'lh', coef: '0.7142', rank: '1', min: 47, max: 58, mana: 30, cast_value: 1.5, cast_title: 1.5, pic: "lh.png", learned: 1, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
-			{class: 'Priest', name: 'Lesser Heal', id: 'lh', coef: '0.7142', rank: '2', min: 76, max: 91, mana: 45, cast_value: 2, cast_title: 2, pic: "lh.png", learned: 4, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
-			{class: 'Priest', name: 'Lesser Heal', id: 'lh', coef: '0.7142', rank: '3', min: 143, max: 165, mana: 75, cast_value: 2.5, cast_title: 2.5, pic: "lh.png", learned: 10, link: "https://classic.wowhead.com/spell=2050/lesser-heal"}
-		],
-		"Flash Heal":[
-			{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '1', min: 202, max: 247, mana: 125, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 20, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
-			{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '2', min: 269, max: 325, mana: 155, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 26, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
-			{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '3', min: 339, max: 406, mana: 185, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 32, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
-			{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '4', min: 414, max: 492, mana: 215, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 38, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
-			{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '5', min: 534, max: 633, mana: 265, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 44, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
-			{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '6', min: 662, max: 783, mana: 315, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 50, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
-			{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '7', min: 828, max: 975, mana: 380, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 56, link: "https://classic.wowhead.com/spell=2050/lesser-heal"}
-		],
-		"Heal":[
-			{class: 'Priest', name: 'Heal', id: 'h', coef: '0.8571', rank: '1', min: 307, max: 353, mana: 155, cast_value: 3, cast_title: 3, pic: "h.png", learned: 16, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
-			{class: 'Priest', name: 'Heal', id: 'h', coef: '0.8571', rank: '2', min: 445, max: 507, mana: 205, cast_value: 3, cast_title: 3, pic: "h.png", learned: 22, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
-			{class: 'Priest', name: 'Heal', id: 'h', coef: '0.8571', rank: '3', min: 586, max: 662, mana: 255, cast_value: 3, cast_title: 3, pic: "h.png", learned: 28, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
-			{class: 'Priest', name: 'Heal', id: 'h', coef: '0.8571', rank: '4', min: 734, max: 827, mana: 305, cast_value: 3, cast_title: 3, pic: "h.png", learned: 34, link: "https://classic.wowhead.com/spell=2050/lesser-heal"}
-		],
-		"Greater Heal":[
-	        {class: 'Priest', name: 'Greater Heal', id: 'gh', coef: '0.8571', rank: '1', min: 924, max: 1039, mana: 370, cast_value: 3, cast_title: 3, pic: "gh.png", learned: 40, link: "https://classic.wowhead.com/spell=2060/greater-heal"},
-	        {class: 'Priest', name: 'Greater Heal', id: 'gh', coef: '0.8571', rank: '2', min: 1178, max: 1318, mana: 455, cast_value: 3, cast_title: 3, pic: "gh.png", learned: 46, link: "https://classic.wowhead.com/spell=2060/greater-heal"},
-	        {class: 'Priest', name: 'Greater Heal', id: 'gh', coef: '0.8571', rank: '3', min: 1470, max: 1642, mana: 545, cast_value: 3, cast_title: 3, pic: "gh.png", learned: 52, link: "https://classic.wowhead.com/spell=2060/greater-heal"},
-	        {class: 'Priest', name: 'Greater Heal', id: 'gh', coef: '0.8571', rank: '4', min: 1813, max: 2021, mana: 655, cast_value: 3, cast_title: 3, pic: "gh.png", learned: 58, link: "https://classic.wowhead.com/spell=2060/greater-heal"}
-	        // {class: 'Priest', name: 'Greater Heal', id: 'gh', coef: '0.8571', rank: '5', min: 1966, max: 2194, mana: 710, cast_value: 3, cast_title: 3, pic: "gh.png", learned: 60, link: "https://classic.wowhead.com/spell=2060/greater-heal"}
-	    ],
-		"Renew":[
-			{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '1', min: 45, max: 45, mana: 30, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 8, link: "https://classic.wowhead.com/spell=139/renew"},
-			{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '2', min: 100, max: 100, mana: 65, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 14, link: "https://classic.wowhead.com/spell=139/renew"},
-			{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '3', min: 175, max: 175, mana: 105, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 20, link: "https://classic.wowhead.com/spell=139/renew"},
-			{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '4', min: 245, max: 245, mana: 140, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 26, link: "https://classic.wowhead.com/spell=139/renew"},
-			{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '5', min: 315, max: 315, mana: 170, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 32, link: "https://classic.wowhead.com/spell=139/renew"},
-			{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '6', min: 400, max: 400, mana: 205, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 38, link: "https://classic.wowhead.com/spell=139/renew"},
-			{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '7', min: 510, max: 510, mana: 250, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 44, link: "https://classic.wowhead.com/spell=139/renew"},
-			{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '8', min: 650, max: 650, mana: 305, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 50, link: "https://classic.wowhead.com/spell=139/renew"},
-			{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '9', min: 810, max: 810, mana: 365, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 56, link: "https://classic.wowhead.com/spell=139/renew"}
-			// {class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '10', min: 970, max: 970, mana: 410, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 60, link: "https://classic.wowhead.com/spell=139/renew"}
-		],
-	    "Power Word: Shield":[
-	        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '1', min: 48, max: 48, mana: 45, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 6, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
-	        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '2', min: 94, max: 94, mana: 80, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 12, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
-	        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '3', min: 166, max: 166, mana: 130, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 18, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
-	        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '4', min: 244, max: 244, mana: 175, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 24, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
-	        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '5', min: 313, max: 313, mana: 210, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 30, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
-	        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '6', min: 394, max: 394, mana: 250, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 36, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
-	        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '7', min: 499, max: 499, mana: 300, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 42, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
-	        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '8', min: 622, max: 622, mana: 355, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 48, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
-	        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '9', min: 783, max: 783, mana: 425, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 54, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
-	        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '10', min: 942, max: 942, mana: 500, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 60, link: "https://classic.wowhead.com/spell=17/power-word-shield"}
-	    ],
-	    "Prayer of Healing":[
-	        {class: 'Priest', name: 'Prayer of Healing', id: 'poh', coef: '0.2857', rank: '1', min: 312, max: 333, mana: 410, cast_value: 3, cast_title: 3, pic: "poh.png", learned: 30, link: "https://classic.wowhead.com/spell=596/prayer-of-healing"},
-	        {class: 'Priest', name: 'Prayer of Healing', id: 'poh', coef: '0.2857', rank: '2', min: 458, max: 487, mana: 560, cast_value: 3, cast_title: 3, pic: "poh.png", learned: 40, link: "https://classic.wowhead.com/spell=596/prayer-of-healing"},
-	        {class: 'Priest', name: 'Prayer of Healing', id: 'poh', coef: '0.2857', rank: '3', min: 675, max: 713, mana: 770, cast_value: 3, cast_title: 3, pic: "poh.png", learned: 50, link: "https://classic.wowhead.com/spell=596/prayer-of-healing"},
-	        {class: 'Priest', name: 'Prayer of Healing', id: 'poh', coef: '0.2857', rank: '4', min: 939, max: 991, mana: 1030, cast_value: 3, cast_title: 3, pic: "poh.png", learned: 60, link: "https://classic.wowhead.com/spell=596/prayer-of-healing"}
-	        // {class: 'Priest', name: 'Prayer of Healing', id: 'poh', coef: '0.2857', rank: '5', min: 1041, max: 1099, mana: 1070, cast_value: 3, cast_title: 3, pic: "poh.png", learned: 60, link: "https://classic.wowhead.com/spell=596/prayer-of-healing"}
-	    ],
-	    "Healing Touch":[
-            {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '1', min: 40, max: 55, mana: 25, cast_value: 1.5, cast_title: 1.5, pic: "ht.png", learned: 1, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
-            {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '2', min: 94, max: 119, mana: 55, cast_value: 2.0, cast_title: 2.0, pic: "ht.png", learned: 8, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
-            {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '3', min: 204, max: 253, mana: 110, cast_value: 2.5, cast_title: 2.5, pic: "ht.png", learned: 14, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
-            {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '4', min: 376, max: 459, mana: 185, cast_value: 3.0, cast_title: 3.0, pic: "ht.png", learned: 20, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
-            {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '5', min: 589, max: 712, mana: 270, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 26, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
-            {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '6', min: 762, max: 914, mana: 335, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 32, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
-            {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '7', min: 958, max: 1143, mana: 405, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 38, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
-            {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '8', min: 1225, max: 1453, mana: 495, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 44, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
-            {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '9', min: 1545, max: 1826, mana: 600, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 50, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
-            {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '10', min: 1916, max: 2257, mana: 720, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 56, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
-            {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '11', min: 2267, max: 2677, mana: 800, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 60, link: "https://classic.wowhead.com/spell=5185/healing-touch"}
-        ],
-		"Regrowth":[
-			{class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '1', min: 93, max: 107, hot: 98, mana: 120, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 12, link: "https://classic.wowhead.com/spell=8936/regrowth"},
-            {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '2', min: 176, max: 201, hot: 175, mana: 205, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 18, link: "https://classic.wowhead.com/spell=8936/regrowth"},
-            {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '3', min: 255, max: 290, hot: 259, mana: 280, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 24, link: "https://classic.wowhead.com/spell=8936/regrowth"},
-            {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '4', min: 336, max: 378, hot: 343, mana: 350, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 30, link: "https://classic.wowhead.com/spell=8936/regrowth"},
-            {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '5', min: 425, max: 478, hot: 427, mana: 420, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 36, link: "https://classic.wowhead.com/spell=8936/regrowth"},
-            {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '6', min: 534, max: 599, hot: 546, mana: 510, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 42, link: "https://classic.wowhead.com/spell=8936/regrowth"},
-            {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '7', min: 672, max: 751, hot: 686, mana: 615, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 48, link: "https://classic.wowhead.com/spell=8936/regrowth"},
-            {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '8', min: 839, max: 935, hot: 861, mana: 740, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 54, link: "https://classic.wowhead.com/spell=8936/regrowth"},
-            {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '9', min: 1003, max: 1119, hot: 1064, mana: 880, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 60, link: "https://classic.wowhead.com/spell=8936/regrowth"}
-        ],
-        "Rejuvenation":[
-            {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.32', rank: '1', min: 32, max: 32, mana: 25, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 4, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
-            {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.50', rank: '2', min: 56, max: 56, mana: 40, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 10, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
-            {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.68', rank: '3', min: 116, max: 116, mana: 75, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 16, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
-            {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '4', min: 180, max: 180, mana: 105, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 22, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
-            {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '5', min: 244, max: 244, mana: 135, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 28, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
-            {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '6', min: 304, max: 304, mana: 160, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 34, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
-            {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '7', min: 388, max: 388, mana: 195, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 40, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
-            {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '8', min: 488, max: 488, mana: 235, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 46, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
-            {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '9', min: 608, max: 608, mana: 280, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 52, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
-            {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '10', min: 756, max: 756, mana: 335, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 58, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
-            {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '11', min: 888, max: 888, mana: 360, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 60, link: "https://classic.wowhead.com/spell=774/rejuvenation"}
-        ],
-        "Tranquility":[
-            {class: 'Druid', name: 'Tranquility', id: 'tran', coef: '0.33', rank: '1', min: 490, max: 490, mana: 375, cast_value: 10, cast_title: 10, pic: "tran.png", learned: 30, link: "https://classic.wowhead.com/spell=740/tranquility"},
-            {class: 'Druid', name: 'Tranquility', id: 'tran', coef: '0.33', rank: '2', min: 715, max: 715, mana: 505, cast_value: 10, cast_title: 10, pic: "tran.png", learned: 40, link: "https://classic.wowhead.com/spell=740/tranquility"},
-            {class: 'Druid', name: 'Tranquility', id: 'tran', coef: '0.33', rank: '3', min: 1055, max: 1055, mana: 695, cast_value: 10, cast_title: 10, pic: "tran.png", learned: 50, link: "https://classic.wowhead.com/spell=740/tranquility"},
-            {class: 'Druid', name: 'Tranquility', id: 'tran', coef: '0.33', rank: '4', min: 1470, max: 1740, mana: 925, cast_value: 10, cast_title: 10, pic: "tran.png", learned: 60, link: "https://classic.wowhead.com/spell=740/tranquility"}
-        ]
+		]
+		// "Holy Light":[
+		// 	{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '1', min: 42, max: 51, mana: 35, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 1, link: "https://classic.wowhead.com/spell=635/holy-light"},
+		// 	{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '2', min: 81, max: 96, mana: 60, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 6, link: "https://classic.wowhead.com/spell=635/holy-light"},
+		// 	{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '3', min: 167, max: 196, mana: 110, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 14, link: "https://classic.wowhead.com/spell=635/holy-light"},
+		// 	{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '4', min: 322, max: 368, mana: 190, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 22, link: "https://classic.wowhead.com/spell=635/holy-light"},
+		// 	{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '5', min: 506, max: 569, mana: 275, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 30, link: "https://classic.wowhead.com/spell=635/holy-light"},
+		// 	{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '6', min: 717, max: 799, mana: 365, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 38, link: "https://classic.wowhead.com/spell=635/holy-light"},
+		// 	{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '7', min: 968, max: 1076, mana: 465, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 46, link: "https://classic.wowhead.com/spell=635/holy-light"},
+		// 	{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '8', min: 1272, max: 1414, mana: 580, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 54, link: "https://classic.wowhead.com/spell=635/holy-light"},
+		// 	{class: 'Paladin', name: 'Holy Light', id:'hl', coef:'0.71', rank: '9', min: 1590, max: 1770, mana: 660, cast_value: 2.5, cast_title: 2.5, pic: "hl.png", learned: 54, link: "https://classic.wowhead.com/spell=635/holy-light"}
+		// ],
+		// "Lesser Heal":[
+		// 	{class: 'Priest', name: 'Lesser Heal', id: 'lh', coef: '0.7142', rank: '1', min: 47, max: 58, mana: 30, cast_value: 1.5, cast_title: 1.5, pic: "lh.png", learned: 1, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
+		// 	{class: 'Priest', name: 'Lesser Heal', id: 'lh', coef: '0.7142', rank: '2', min: 76, max: 91, mana: 45, cast_value: 2, cast_title: 2, pic: "lh.png", learned: 4, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
+		// 	{class: 'Priest', name: 'Lesser Heal', id: 'lh', coef: '0.7142', rank: '3', min: 143, max: 165, mana: 75, cast_value: 2.5, cast_title: 2.5, pic: "lh.png", learned: 10, link: "https://classic.wowhead.com/spell=2050/lesser-heal"}
+		// ],
+		// "Flash Heal":[
+		// 	{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '1', min: 202, max: 247, mana: 125, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 20, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
+		// 	{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '2', min: 269, max: 325, mana: 155, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 26, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
+		// 	{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '3', min: 339, max: 406, mana: 185, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 32, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
+		// 	{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '4', min: 414, max: 492, mana: 215, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 38, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
+		// 	{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '5', min: 534, max: 633, mana: 265, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 44, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
+		// 	{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '6', min: 662, max: 783, mana: 315, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 50, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
+		// 	{class: 'Priest', name: 'Flash Heal', id: 'fh', coef: '0.4285', rank: '7', min: 828, max: 975, mana: 380, cast_value: 1.5, cast_title: 1.5, pic: "fol.png", learned: 56, link: "https://classic.wowhead.com/spell=2050/lesser-heal"}
+		// ],
+		// "Heal":[
+		// 	{class: 'Priest', name: 'Heal', id: 'h', coef: '0.8571', rank: '1', min: 307, max: 353, mana: 155, cast_value: 3, cast_title: 3, pic: "h.png", learned: 16, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
+		// 	{class: 'Priest', name: 'Heal', id: 'h', coef: '0.8571', rank: '2', min: 445, max: 507, mana: 205, cast_value: 3, cast_title: 3, pic: "h.png", learned: 22, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
+		// 	{class: 'Priest', name: 'Heal', id: 'h', coef: '0.8571', rank: '3', min: 586, max: 662, mana: 255, cast_value: 3, cast_title: 3, pic: "h.png", learned: 28, link: "https://classic.wowhead.com/spell=2050/lesser-heal"},
+		// 	{class: 'Priest', name: 'Heal', id: 'h', coef: '0.8571', rank: '4', min: 734, max: 827, mana: 305, cast_value: 3, cast_title: 3, pic: "h.png", learned: 34, link: "https://classic.wowhead.com/spell=2050/lesser-heal"}
+		// ],
+		// "Greater Heal":[
+	 //        {class: 'Priest', name: 'Greater Heal', id: 'gh', coef: '0.8571', rank: '1', min: 924, max: 1039, mana: 370, cast_value: 3, cast_title: 3, pic: "gh.png", learned: 40, link: "https://classic.wowhead.com/spell=2060/greater-heal"},
+	 //        {class: 'Priest', name: 'Greater Heal', id: 'gh', coef: '0.8571', rank: '2', min: 1178, max: 1318, mana: 455, cast_value: 3, cast_title: 3, pic: "gh.png", learned: 46, link: "https://classic.wowhead.com/spell=2060/greater-heal"},
+	 //        {class: 'Priest', name: 'Greater Heal', id: 'gh', coef: '0.8571', rank: '3', min: 1470, max: 1642, mana: 545, cast_value: 3, cast_title: 3, pic: "gh.png", learned: 52, link: "https://classic.wowhead.com/spell=2060/greater-heal"},
+	 //        {class: 'Priest', name: 'Greater Heal', id: 'gh', coef: '0.8571', rank: '4', min: 1813, max: 2021, mana: 655, cast_value: 3, cast_title: 3, pic: "gh.png", learned: 58, link: "https://classic.wowhead.com/spell=2060/greater-heal"}
+	 //        // {class: 'Priest', name: 'Greater Heal', id: 'gh', coef: '0.8571', rank: '5', min: 1966, max: 2194, mana: 710, cast_value: 3, cast_title: 3, pic: "gh.png", learned: 60, link: "https://classic.wowhead.com/spell=2060/greater-heal"}
+	 //    ],
+		// "Renew":[
+		// 	{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '1', min: 45, max: 45, mana: 30, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 8, link: "https://classic.wowhead.com/spell=139/renew"},
+		// 	{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '2', min: 100, max: 100, mana: 65, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 14, link: "https://classic.wowhead.com/spell=139/renew"},
+		// 	{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '3', min: 175, max: 175, mana: 105, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 20, link: "https://classic.wowhead.com/spell=139/renew"},
+		// 	{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '4', min: 245, max: 245, mana: 140, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 26, link: "https://classic.wowhead.com/spell=139/renew"},
+		// 	{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '5', min: 315, max: 315, mana: 170, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 32, link: "https://classic.wowhead.com/spell=139/renew"},
+		// 	{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '6', min: 400, max: 400, mana: 205, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 38, link: "https://classic.wowhead.com/spell=139/renew"},
+		// 	{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '7', min: 510, max: 510, mana: 250, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 44, link: "https://classic.wowhead.com/spell=139/renew"},
+		// 	{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '8', min: 650, max: 650, mana: 305, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 50, link: "https://classic.wowhead.com/spell=139/renew"},
+		// 	{class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '9', min: 810, max: 810, mana: 365, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 56, link: "https://classic.wowhead.com/spell=139/renew"}
+		// 	// {class: 'Priest', name: 'Renew', id: 'rn', coef: '1', rank: '10', min: 970, max: 970, mana: 410, cast_value: 15, cast_title: 'Instant', pic: "rn.png", learned: 60, link: "https://classic.wowhead.com/spell=139/renew"}
+		// ],
+	 //    "Power Word: Shield":[
+	 //        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '1', min: 48, max: 48, mana: 45, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 6, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
+	 //        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '2', min: 94, max: 94, mana: 80, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 12, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
+	 //        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '3', min: 166, max: 166, mana: 130, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 18, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
+	 //        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '4', min: 244, max: 244, mana: 175, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 24, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
+	 //        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '5', min: 313, max: 313, mana: 210, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 30, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
+	 //        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '6', min: 394, max: 394, mana: 250, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 36, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
+	 //        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '7', min: 499, max: 499, mana: 300, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 42, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
+	 //        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '8', min: 622, max: 622, mana: 355, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 48, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
+	 //        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '9', min: 783, max: 783, mana: 425, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 54, link: "https://classic.wowhead.com/spell=17/power-word-shield"},
+	 //        {class: 'Priest', name: 'Power Word: Shield', id: 'pws', coef: '0.1', rank: '10', min: 942, max: 942, mana: 500, cast_value: 15, cast_title: 'Instant', pic: "pws.png", learned: 60, link: "https://classic.wowhead.com/spell=17/power-word-shield"}
+	 //    ],
+	 //    "Prayer of Healing":[
+	 //        {class: 'Priest', name: 'Prayer of Healing', id: 'poh', coef: '0.2857', rank: '1', min: 312, max: 333, mana: 410, cast_value: 3, cast_title: 3, pic: "poh.png", learned: 30, link: "https://classic.wowhead.com/spell=596/prayer-of-healing"},
+	 //        {class: 'Priest', name: 'Prayer of Healing', id: 'poh', coef: '0.2857', rank: '2', min: 458, max: 487, mana: 560, cast_value: 3, cast_title: 3, pic: "poh.png", learned: 40, link: "https://classic.wowhead.com/spell=596/prayer-of-healing"},
+	 //        {class: 'Priest', name: 'Prayer of Healing', id: 'poh', coef: '0.2857', rank: '3', min: 675, max: 713, mana: 770, cast_value: 3, cast_title: 3, pic: "poh.png", learned: 50, link: "https://classic.wowhead.com/spell=596/prayer-of-healing"},
+	 //        {class: 'Priest', name: 'Prayer of Healing', id: 'poh', coef: '0.2857', rank: '4', min: 939, max: 991, mana: 1030, cast_value: 3, cast_title: 3, pic: "poh.png", learned: 60, link: "https://classic.wowhead.com/spell=596/prayer-of-healing"}
+	 //        // {class: 'Priest', name: 'Prayer of Healing', id: 'poh', coef: '0.2857', rank: '5', min: 1041, max: 1099, mana: 1070, cast_value: 3, cast_title: 3, pic: "poh.png", learned: 60, link: "https://classic.wowhead.com/spell=596/prayer-of-healing"}
+	 //    ],
+	 //    "Healing Touch":[
+  //           {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '1', min: 40, max: 55, mana: 25, cast_value: 1.5, cast_title: 1.5, pic: "ht.png", learned: 1, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
+  //           {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '2', min: 94, max: 119, mana: 55, cast_value: 2.0, cast_title: 2.0, pic: "ht.png", learned: 8, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
+  //           {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '3', min: 204, max: 253, mana: 110, cast_value: 2.5, cast_title: 2.5, pic: "ht.png", learned: 14, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
+  //           {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '4', min: 376, max: 459, mana: 185, cast_value: 3.0, cast_title: 3.0, pic: "ht.png", learned: 20, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
+  //           {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '5', min: 589, max: 712, mana: 270, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 26, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
+  //           {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '6', min: 762, max: 914, mana: 335, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 32, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
+  //           {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '7', min: 958, max: 1143, mana: 405, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 38, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
+  //           {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '8', min: 1225, max: 1453, mana: 495, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 44, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
+  //           {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '9', min: 1545, max: 1826, mana: 600, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 50, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
+  //           {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '10', min: 1916, max: 2257, mana: 720, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 56, link: "https://classic.wowhead.com/spell=5185/healing-touch"},
+  //           {class: 'Druid', name: 'Healing Touch', id:'ht', coef:'1.0', rank: '11', min: 2267, max: 2677, mana: 800, cast_value: 3.5, cast_title: 3.5, pic: "ht.png", learned: 60, link: "https://classic.wowhead.com/spell=5185/healing-touch"}
+  //       ],
+		// "Regrowth":[
+		// 	{class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '1', min: 93, max: 107, hot: 98, mana: 120, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 12, link: "https://classic.wowhead.com/spell=8936/regrowth"},
+  //           {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '2', min: 176, max: 201, hot: 175, mana: 205, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 18, link: "https://classic.wowhead.com/spell=8936/regrowth"},
+  //           {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '3', min: 255, max: 290, hot: 259, mana: 280, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 24, link: "https://classic.wowhead.com/spell=8936/regrowth"},
+  //           {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '4', min: 336, max: 378, hot: 343, mana: 350, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 30, link: "https://classic.wowhead.com/spell=8936/regrowth"},
+  //           {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '5', min: 425, max: 478, hot: 427, mana: 420, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 36, link: "https://classic.wowhead.com/spell=8936/regrowth"},
+  //           {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '6', min: 534, max: 599, hot: 546, mana: 510, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 42, link: "https://classic.wowhead.com/spell=8936/regrowth"},
+  //           {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '7', min: 672, max: 751, hot: 686, mana: 615, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 48, link: "https://classic.wowhead.com/spell=8936/regrowth"},
+  //           {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '8', min: 839, max: 935, hot: 861, mana: 740, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 54, link: "https://classic.wowhead.com/spell=8936/regrowth"},
+  //           {class: 'Druid', name: 'Regrowth', id:'rgw', coef:'0.29', hcoef:'0.63', rank: '9', min: 1003, max: 1119, hot: 1064, mana: 880, cast_value: 2.0, cast_title: 2.0, hdur: 21, pic: "rgw.png", learned: 60, link: "https://classic.wowhead.com/spell=8936/regrowth"}
+  //       ],
+  //       "Rejuvenation":[
+  //           {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.32', rank: '1', min: 32, max: 32, mana: 25, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 4, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
+  //           {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.50', rank: '2', min: 56, max: 56, mana: 40, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 10, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
+  //           {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.68', rank: '3', min: 116, max: 116, mana: 75, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 16, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
+  //           {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '4', min: 180, max: 180, mana: 105, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 22, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
+  //           {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '5', min: 244, max: 244, mana: 135, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 28, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
+  //           {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '6', min: 304, max: 304, mana: 160, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 34, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
+  //           {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '7', min: 388, max: 388, mana: 195, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 40, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
+  //           {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '8', min: 488, max: 488, mana: 235, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 46, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
+  //           {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '9', min: 608, max: 608, mana: 280, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 52, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
+  //           {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '10', min: 756, max: 756, mana: 335, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 58, link: "https://classic.wowhead.com/spell=774/rejuvenation"},
+  //           {class: 'Druid', name: 'Rejuvenation', id: 'rej', coef: '0.80', rank: '11', min: 888, max: 888, mana: 360, cast_value: 12, cast_title: 'Instant', pic: "rej.png", learned: 60, link: "https://classic.wowhead.com/spell=774/rejuvenation"}
+  //       ],
+  //       "Tranquility":[
+  //           {class: 'Druid', name: 'Tranquility', id: 'tran', coef: '0.33', rank: '1', min: 490, max: 490, mana: 375, cast_value: 10, cast_title: 10, pic: "tran.png", learned: 30, link: "https://classic.wowhead.com/spell=740/tranquility"},
+  //           {class: 'Druid', name: 'Tranquility', id: 'tran', coef: '0.33', rank: '2', min: 715, max: 715, mana: 505, cast_value: 10, cast_title: 10, pic: "tran.png", learned: 40, link: "https://classic.wowhead.com/spell=740/tranquility"},
+  //           {class: 'Druid', name: 'Tranquility', id: 'tran', coef: '0.33', rank: '3', min: 1055, max: 1055, mana: 695, cast_value: 10, cast_title: 10, pic: "tran.png", learned: 50, link: "https://classic.wowhead.com/spell=740/tranquility"},
+  //           {class: 'Druid', name: 'Tranquility', id: 'tran', coef: '0.33', rank: '4', min: 1470, max: 1740, mana: 925, cast_value: 10, cast_title: 10, pic: "tran.png", learned: 60, link: "https://classic.wowhead.com/spell=740/tranquility"}
+  //       ]
 	};
 
 	var classButton = $('.class_button');
